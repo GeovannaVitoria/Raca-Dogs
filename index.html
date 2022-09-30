@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raças Dogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="logo" onmouseover="logo()" onmouseout="out()" > Raça Dogs</h1>
+            <ul class="nav-list">
+                <li><a href="#sessao1"> Home </a></li>
+                <li><a href="#sessao2"> Galeria </a></li>
+                <li><a href="#sessao3"> Contatos </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container" id="sessao1">
+        <div class="conteudo">
+            <p> Raça de Dogs </p>
+            <p> Clique na imagem para descobrir mais sobre a raça escolhida. </p> 
+        </div>
+    </main>
+
+    <section class="galeria" id="sessao2">
+        <div class="insideGaleria1">
+            <div  onclick="photo1()" id="photo1">
+                <p class="nameDog"> Border Collie </p>
+            </div>
+
+            <div id="photo2">
+                <p class="nameDog"> Kooikerhondje </p>
+            </div>
+
+            <div id="photo3">
+                <p class="nameDog"> Golden Retrivier </p>
+            </div>
+        </div>
+        <div class="insideGaleria2">
+            <div id="photo4">
+                <p class="nameDog"> Pinscher </p>
+            </div>   
+            
+            <div id="photo5">
+                <p class="nameDog"> Bulldog Francês </p>
+            </div>
+
+            <div id="photo6">
+                <p class="nameDog"> Bassê </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer" id="sessao3">
+            <h2> Contatos </h2>
+            <p> Telefone: (21) 9999-9999</p>
+            <p> Email: racadogsrj@gmail.com</p>
+            <p> Endereço: Rua São Teodósio,257</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

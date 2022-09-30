@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-list a:hover{
+    color: #5C3317;
+}
+
+#logo{
+   text-transform: uppercase;
+   font-size: 24px;
+   letter-spacing: 4px;
+   color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: orange;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 42px;
+}
+
+.container:nth-last-of-type(1) {
+    background: url(foto7.jpeg) no-repeat center center ;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+}
+
+.conteudo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    background-color: #ffa60093;
+    height: 12vh;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #5C3317;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 75px;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+}
+
+.galeria{ 
+    background-color: #ffa60093;
+    height: 100vh;
+    padding: 50px;
+}
+
+.insideGaleria1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 200px;
+    
+}
+
+#photo1{
+    background: url(border-collie) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 50px;
+}
+
+#photo2{
+    background: url(kooikerhondje.jpg) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 50px;
+}
+
+#photo3{
+    background: url(theo.jpg) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 50px;
+}
+
+.insideGaleria2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#photo4{
+    background: url(marializ.jpg) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 53px;
+    margin-bottom: 100%;
+    margin-top: 50px;
+}
+
+#photo5{
+    background: url(biorne.jpg) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 53px;
+    margin-top: 50px;
+}
+
+#photo6{
+    background: url(cristal.jpg) no-repeat;
+    height: 18rem;
+    width: 26rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 53px;
+    margin-top: 50px;
+}
+
+.nameDog{
+    color: white;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 92%;
+    left: 24%;
+    background-color: #5C3317;
+    height: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-footer{
+    background-color: orange;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 53px;
+    padding-top: 7%;
+    border: #5C3317 solid 2px;
+
+}
+
+.main-footer h2{
+    color: white;
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px #5C3317 ;;
+}
+
+.main-footer p{
+    background-color: #5C3317;
+    border-radius: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
